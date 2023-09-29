@@ -1,0 +1,42 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #111111;
+  color: white;
+}
+
+.list-item{
+  width: 100%;
+  margin-top: 0.3rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+  list-style: none;
+  color: white;
+  background-color: #2a746c;
+  user-select: none;
+}
+
+.list-item-icon:hover{
+  cursor: pointer;
+  background-color: rgb(141, 141, 129);
+}
+.item-complete{
+  font-style: italic;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.list-item-icon{
+  margin-left: 5%;
+  padding: 0.3rem;
+  background-color: beige;
+  color: #111111;
+  border-radius: 5px;
+}
+.list-item:hover{
+  cursor: pointer;
+}
